@@ -2,8 +2,8 @@ import React from "react";
 
 const Input = ({ className, label, type, onChange, placeholder, name }) => {
   return (
-    <div>
-      {label && <label for={name}></label>}
+    <div className="flex flex-col my-2">
+      {label && <label for={name} className="font-semi-bold text-[12px]">{label}*</label>}
       <input
         name={name}
         className={className}
