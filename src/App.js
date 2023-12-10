@@ -1,10 +1,12 @@
 import "./App.css";
 import Auth from "./view/auth";
+import Home from "./view/home";
 
 function App() {
   return (
     <div>
-      <Auth />
+      {/* <Auth /> */}
+      <Home/>
     </div>
   );
 }
